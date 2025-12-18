@@ -1,3 +1,5 @@
+
+```markdown
 # 🚛 NexGen Smart-Switch Engine
 
 ### Prescriptive Logistics Optimization Prototype
@@ -44,6 +46,54 @@ I have included a `data_generator.py` script so you can replicate my exact test 
 **Step 1: Clone or Download**
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/NexGen-Smart-Switch.git](https://github.com/YOUR_USERNAME/NexGen-Smart-Switch.git)
-cd NexGen-Smart-Switch
+git clone [https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git](https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git)
+cd surabhisingh04-NexGenSmart-Switch
+
+```
+
+**Step 2: Install Requirements**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+**Step 3: Generate Data**
+
+Run this script to create the dummy CSV files in a `/data` folder:
+
+```bash
+python data_generator.py
+
+```
+
+**Step 4: Launch the App**
+
+```bash
+python -m streamlit run app.py
+
+```
+
+## 🔮 Future Improvements
+
+If I had more time to develop this into a production app, I would add:
+
+* **Live Traffic API:** To get real travel times instead of simulated averages.
+* **Driver Mobile App:** To push these routing decisions directly to the fleet.
+* **Predictive Maintenance:** Using fleet age data to predict breakdowns.
+
+---
+
+*Built with ❤️ by Surabhi Singh*
+
+```
+
+### Final Step: Update GitHub
+After you paste and save this in VS Code, run these commands to update the online version:
+
+```powershell
+git add README.md
+git commit -m "Fixed README links"
+git push
+
 ```
