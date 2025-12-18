@@ -1,0 +1,84 @@
+Customer_ID,Order_ID,Rating,Feedback_Text
+CUST-024,ORD-0057,2,Late delivery.
+CUST-027,ORD-0024,4,Package damaged.
+CUST-032,ORD-0048,4,Loved the eco-friendly option.
+CUST-014,ORD-0160,4,Great service!
+CUST-026,ORD-0004,1,Package damaged.
+CUST-014,ORD-0055,2,Great service!
+CUST-038,ORD-0148,2,Great service!
+CUST-011,ORD-0047,4,Late delivery.
+CUST-047,ORD-0144,2,Package damaged.
+CUST-044,ORD-0192,5,Late delivery.
+CUST-018,ORD-0150,4,Great service!
+CUST-036,ORD-0062,3,Late delivery.
+CUST-018,ORD-0072,3,Package damaged.
+CUST-039,ORD-0056,1,Loved the eco-friendly option.
+CUST-007,ORD-0121,4,Rude driver.
+CUST-034,ORD-0023,1,Great service!
+CUST-039,ORD-0034,4,Package damaged.
+CUST-012,ORD-0064,3,Late delivery.
+CUST-040,ORD-0093,2,Rude driver.
+CUST-001,ORD-0074,1,Loved the eco-friendly option.
+CUST-033,ORD-0128,4,Loved the eco-friendly option.
+CUST-037,ORD-0080,2,Package damaged.
+CUST-003,ORD-0021,4,Late delivery.
+CUST-016,ORD-0188,1,Rude driver.
+CUST-034,ORD-0058,5,Great service!
+CUST-013,ORD-0098,4,Great service!
+CUST-049,ORD-0114,3,Loved the eco-friendly option.
+CUST-029,ORD-0174,5,Great service!
+CUST-035,ORD-0124,3,Late delivery.
+CUST-005,ORD-0112,1,Great service!
+CUST-050,ORD-0177,4,Rude driver.
+CUST-039,ORD-0120,3,Great service!
+CUST-032,ORD-0067,2,Loved the eco-friendly option.
+CUST-034,ORD-0139,3,Package damaged.
+CUST-007,ORD-0123,3,Rude driver.
+CUST-038,ORD-0052,3,Loved the eco-friendly option.
+CUST-015,ORD-0088,3,Great service!
+CUST-035,ORD-0117,1,Package damaged.
+CUST-013,ORD-0135,4,Great service!
+CUST-043,ORD-0073,1,Rude driver.
+CUST-029,ORD-0140,3,Late delivery.
+CUST-016,ORD-0125,5,Loved the eco-friendly option.
+CUST-043,ORD-0182,3,Rude driver.
+CUST-043,ORD-0163,2,Late delivery.
+CUST-012,ORD-0152,2,Rude driver.
+CUST-004,ORD-0153,4,Rude driver.
+CUST-028,ORD-0106,3,Package damaged.
+CUST-018,ORD-0071,2,Great service!
+CUST-032,ORD-0161,2,Great service!
+CUST-011,ORD-0077,3,Package damaged.
+CUST-025,ORD-0155,1,Loved the eco-friendly option.
+CUST-049,ORD-0010,5,Package damaged.
+CUST-022,ORD-0085,5,Rude driver.
+CUST-045,ORD-0036,3,Rude driver.
+CUST-006,ORD-0046,5,Package damaged.
+CUST-036,ORD-0070,4,Loved the eco-friendly option.
+CUST-028,ORD-0118,5,Rude driver.
+CUST-035,ORD-0041,4,Package damaged.
+CUST-010,ORD-0061,4,Late delivery.
+CUST-026,ORD-0027,1,Package damaged.
+CUST-018,ORD-0187,3,Loved the eco-friendly option.
+CUST-027,ORD-0168,2,Loved the eco-friendly option.
+CUST-036,ORD-0178,1,Great service!
+CUST-019,ORD-0115,1,Loved the eco-friendly option.
+CUST-040,ORD-0007,1,Late delivery.
+CUST-014,ORD-0030,5,Loved the eco-friendly option.
+CUST-007,ORD-0069,1,Package damaged.
+CUST-016,ORD-0006,5,Package damaged.
+CUST-046,ORD-0012,5,Great service!
+CUST-041,ORD-0081,2,Rude driver.
+CUST-050,ORD-0195,2,Rude driver.
+CUST-047,ORD-0165,2,Loved the eco-friendly option.
+CUST-044,ORD-0109,5,Late delivery.
+CUST-006,ORD-0154,1,Late delivery.
+CUST-008,ORD-0199,3,Late delivery.
+CUST-038,ORD-0011,3,Loved the eco-friendly option.
+CUST-015,ORD-0130,2,Late delivery.
+CUST-029,ORD-0065,5,Great service!
+CUST-019,ORD-0019,2,Great service!
+CUST-035,ORD-0038,1,Rude driver.
+CUST-012,ORD-0045,2,Loved the eco-friendly option.
+CUST-007,ORD-0079,4,Late delivery.
+CUST-009,ORD-0183,5,Package damaged.
