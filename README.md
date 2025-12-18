@@ -69,17 +69,17 @@ Missing or incomplete data is handled gracefully to reflect real-world condition
 
 A synthetic data generator is included so the project can be run without external downloads.
 
-### Step 1: Clone the Repository
-```bash
+*### Step 1:  Clone the Repository
+
 git clone https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git
 cd surabhisingh04-NexGenSmart-Switch
 
 ### Step 2: Install Dependencies
-```bash
+
 pip install -r requirements.txt
 
 ### Step 3: Generate Sample Data
-```bash
+
 python data_generator.py
 
 Step 4: Launch the Application
