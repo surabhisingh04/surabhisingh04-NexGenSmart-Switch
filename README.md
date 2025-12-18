@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 python data_generator.py
 
-Step 4: Launch the Application
+### Step 4: Launch the Application
 
 Start the Streamlit app locally using:
 
