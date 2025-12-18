@@ -7,7 +7,7 @@
 
 ---
 
-## 👋 Project Overview
+## Project Overview
 
 For this assessment, I chose **Option 8 (Own Idea)** after identifying a gap in the given case study.  
 Most logistics tools focus on **Descriptive Analytics** (what went wrong), while NexGen’s real need is **Prescriptive Analytics** (what should we do next).
@@ -16,7 +16,7 @@ The **NexGen Smart-Switch Engine** is designed to recommend the *best fulfillmen
 
 ---
 
-## 💡 Core Idea: Smart-Switch Decision Engine
+## Core Idea: Smart-Switch Decision Engine
 
 The Smart-Switch engine balances three conflicting logistics objectives **at the order level**:
 
@@ -28,7 +28,7 @@ Instead of static rules, managers can dynamically adjust priorities and instantl
 
 ---
 
-## 🧠 Innovation Highlight: AI-Based Churn Prevention
+## Innovation Highlight: AI-Based Churn Prevention
 
 During analysis, I observed that blindly choosing the cheapest delivery option often increases customer dissatisfaction.
 
@@ -65,7 +65,7 @@ Missing or incomplete data is handled gracefully to reflect real-world condition
 
 ---
 
-## 🚀 How to Run the Project Locally
+## How to Run the Project Locally
 
 A synthetic data generator is included so the project can be run without external downloads.
 
