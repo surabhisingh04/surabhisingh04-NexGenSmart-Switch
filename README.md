@@ -4,6 +4,7 @@
 
 **Developer:** Surabhi Singh (22BCE10724)  
 **Submission for:** OFI AI Internship Assessment – Innovation Challenge  
+![Dashboard Screenshot](Screenshot%202025-12-19%20041459.png)
 
 ---
 
