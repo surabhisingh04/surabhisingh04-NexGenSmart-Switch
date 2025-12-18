@@ -1,99 +1,75 @@
-
-```markdown
 # 🚛 NexGen Smart-Switch Engine
 
 ### Prescriptive Logistics Optimization Prototype
 
 **Developer:** Surabhi Singh (22BCE10724)  
-**Submission for:** OFI AI Internship Assessment - Innovation Challenge
+**Submission for:** OFI AI Internship Assessment – Innovation Challenge  
 
 ---
 
 ## 👋 Project Overview
 
-For this assessment, I chose **Option 8 (Own Idea)** because I noticed a gap in the case study: most logistics tools only tell you _what went wrong_ yesterday (Descriptive Analytics). I wanted to build a tool that tells managers _what to do_ tomorrow (Prescriptive Analytics).
+For this assessment, I chose **Option 8 (Own Idea)** after identifying a gap in the given case study.  
+Most logistics tools focus on **Descriptive Analytics** (what went wrong), while NexGen’s real need is **Prescriptive Analytics** (what should we do next).
 
-**The Concept:**
-The "Smart-Switch" is a decision engine that balances three conflicting goals for every single order:
-
-1.  **Saving Cost** (Money)
-2.  **Delivery Speed** (Customer Satisfaction)
-3.  **Sustainability** (CO2 Emissions)
-
-## 💡 My "Innovation" Feature
-
-While analyzing the data, I realized that blindly choosing the cheapest shipping option often leads to unhappy customers.
-
-To solve this, I built a **Churn Prevention System** using NLP:
-
-- I used the `TextBlob` library to scan historical feedback text.
-- If a customer's sentiment score is negative (e.g., they are already angry), the algorithm **automatically overrides** cost-saving rules.
-- It forces a faster delivery mode to "save" the relationship, protecting long-term value over short-term savings.
-
-## 🛠️ Tech Stack & Methodology
-
-I built this project using Python 3.11 and the following libraries:
-
-- **Streamlit:** For the interactive web interface (I wanted it to be user-friendly for non-tech managers).
-- **Pandas & NumPy:** For merging the 4 disparate datasets (`orders`, `fleet`, `feedback`, `costs`) into a single truth table.
-- **TextBlob:** Used for the Sentiment Analysis logic.
-- **Plotly Express:** For the "Network Risk" scatter plot visualization.
-
-## 🚀 How to Run This Code
-
-I have included a `data_generator.py` script so you can replicate my exact test environment without needing external CSV downloads.
-
-**Step 1: Clone or Download**
-
-```bash
-git clone [https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git](https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git)
-cd surabhisingh04-NexGenSmart-Switch
-
-```
-
-**Step 2: Install Requirements**
-
-```bash
-pip install -r requirements.txt
-
-```
-
-**Step 3: Generate Data**
-
-Run this script to create the dummy CSV files in a `/data` folder:
-
-```bash
-python data_generator.py
-
-```
-
-**Step 4: Launch the App**
-
-```bash
-python -m streamlit run app.py
-
-```
-
-## 🔮 Future Improvements
-
-If I had more time to develop this into a production app, I would add:
-
-* **Live Traffic API:** To get real travel times instead of simulated averages.
-* **Driver Mobile App:** To push these routing decisions directly to the fleet.
-* **Predictive Maintenance:** Using fleet age data to predict breakdowns.
+The **NexGen Smart-Switch Engine** is designed to recommend the *best fulfillment strategy for each order*, rather than just reporting historical issues.
 
 ---
 
-*Built with ❤️ by Surabhi Singh*
+## 💡 Core Idea: Smart-Switch Decision Engine
 
-```
+The Smart-Switch engine balances three conflicting logistics objectives **at the order level**:
 
-### Final Step: Update GitHub
-After you paste and save this in VS Code, run these commands to update the online version:
+1. **Cost Optimization** – Reduce unnecessary operational expenses  
+2. **Delivery Speed** – Protect customer satisfaction  
+3. **Sustainability** – Minimize CO₂ emissions  
 
-```powershell
-git add README.md
-git commit -m "Fixed README links"
-git push
+Instead of static rules, managers can dynamically adjust priorities and instantly see how recommendations change.
 
-```
+---
+
+## 🧠 Innovation Highlight: AI-Based Churn Prevention
+
+During analysis, I observed that blindly choosing the cheapest delivery option often increases customer dissatisfaction.
+
+To address this, I implemented a **Churn Prevention System using NLP**:
+
+- Customer feedback text is analyzed using **TextBlob sentiment analysis**
+- Each customer receives a sentiment score (−1 to +1)
+- If a customer is identified as **at risk** (negative sentiment):
+  - The algorithm **overrides cost-first logic**
+  - Slower but cheaper delivery modes are penalized
+  - Faster delivery options are prioritized to protect long-term customer value
+
+This ensures that **short-term cost savings do not cause long-term customer churn**.
+
+---
+
+## 🛠️ Tech Stack & Methodology
+
+This project was built using **Python 3.11** and the following tools:
+
+- **Streamlit** – Interactive, manager-friendly web application  
+- **Pandas & NumPy** – Data cleaning, merging, and feature engineering  
+- **TextBlob** – NLP-based sentiment analysis  
+- **Plotly Express** – Interactive visualizations (risk vs value analysis)  
+
+### Data Integration
+Four datasets are merged into a single decision-ready table:
+- `orders.csv`
+- `vehicle_fleet.csv`
+- `customer_feedback.csv`
+- `cost_breakdown.csv`
+
+Missing or incomplete data is handled gracefully to reflect real-world conditions.
+
+---
+
+## 🚀 How to Run the Project Locally
+
+A synthetic data generator is included so the project can be run without external downloads.
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/surabhisingh04/surabhisingh04-NexGenSmart-Switch.git
+cd surabhisingh04-NexGenSmart-Switch
